@@ -11,6 +11,6 @@ function ativaScrollSuave(selector) {
     });
 }
 
-ativaScrollSuave('a[href*=painel-sobre]');
+ativaScrollSuave('a[href*=painel-sobre]'); 
 ativaScrollSuave('a[href*=painel-palestrante]');
 ativaScrollSuave('a[href*=painel-form]');
