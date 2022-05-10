@@ -1,0 +1,88 @@
+.header {
+    background: url("../img/destaque.jpeg") no-repeat;
+    background-size: cover;
+    padding-top: 32px;
+
+}
+
+.header .main-menu {
+    text-align: center;
+}
+
+.header .main-menu .menu-item {
+    display: inline-block;
+    margin: 0 2px 32px 0;
+}
+
+.header .main-menu .menu-item a {
+    color: white;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+
+.header .main-menu .menu-item a:hover{
+    background-color: #48A3A6;
+}
+
+.header .jumbotron {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 44px 0;
+}
+
+.header .painel-main {
+    color: white;
+    text-shadow: 4px 4px 10px black;
+}
+
+.header .jumbotron .titulo {
+
+    font-size: 3em;
+}
+
+.header .jumbotron .subtitulo {
+    
+    font-size: 2.6em;
+    color: #64FF64;
+    margin-top: 8px;
+}
+
+.header .jumbotron .painel-inscrever {
+
+    margin-top: 28px;
+}
+
+.painel-sobre {
+    margin-top: 20px;   
+    text-align: center; 
+}
+
+.painel-sobre .titulo {
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.painel-sobre .subtitulo {
+
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.painel-sobre .sobre-descricao {
+
+    font-size: 18px;
+    line-height: 35px;
+}
+
+@media(min-width: 650px) {
+
+    .header .jumbotron {
+
+        font-size: 28px;
+    }
+            
+}
